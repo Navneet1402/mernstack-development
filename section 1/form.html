@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ADMISSION FORM</title>
+</head>
+
+<body>
+    <H1>student admission form</H1>
+    <hr>
+
+    <form>
+
+        <label>FULL NAME </label>
+        <input type="text" required>
+        <br><br>
+        <label>EMAIL </label>
+        <input type="email" required>
+        <br>
+        <br>
+        <labdel>AGE</labdel>
+        <input type="number" min="0"><br><br>
+        <label>DATE OF BIRTH </label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Address </label>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <label>state of residence</label>
+        <select>
+            <option>uttar pradesh</option>
+            <option>delhi</option>
+            <option>madhya pradesh</option>
+            <option>rajasthan</option>
+            <option>tamil nadu</option>
+            <option>telangana</option>
+            <option>andhra pradesh</option>
+        </select>
+        <br><br>
+
+        <label> SELECT INTERMEDIATE BOARD</label>
+        <input type="text" list="board">
+
+        <datalist id="board">
+            <option>up</option>
+            <option>cbse</option>
+        </datalist>
+        <br><br>
+
+        <label>GENDER</label>
+        <input type="radio" name="GENDER">Male
+        <input type="radio" name="GENDER">Female
+        <br><br>
+
+        <input type="checkbox">I accept the following terms.
+        <details>
+            <summary>
+                Terms and conditions
+            </summary>
+            <p>Lorem ipsum, dolor sit amet <mark>consectetur adipisicing elit</mark>m. Mollitia molestiae deleniti perspiciatis libero
+                voluptatum? Tempore harum amet, magnam in cupiditate vitae vel omnis dolorum, eius eveniet soluta
+                ducimus iure corrupti.</p>
+        </details>
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
